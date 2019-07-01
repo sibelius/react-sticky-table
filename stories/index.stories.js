@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
+import '../dist/react-sticky-table.css';
 import './demo.css';
 
 import Basic from './Basic/index';

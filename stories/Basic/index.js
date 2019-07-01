@@ -10,7 +10,7 @@ export default class Basic extends Component {
     for (var r = 0; r < 50; r++) {
       cells = [];
 
-      for (var c = 0; c < 20; c++) {
+      for (var c = 0; c < 50; c++) {
         cells.push(<Cell key={c}>{(r === 0 ? 'Header ' : 'Cell ') + c}</Cell>);
       }
 

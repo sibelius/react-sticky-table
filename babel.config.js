@@ -10,7 +10,8 @@ module.exports = {
         // modules: false,
         useBuiltIns: false
       }
-    ]
+    ],
+    '@babel/preset-typescript',
   ],
   plugins: ['@babel/plugin-proposal-class-properties'],
   env: {
@@ -23,7 +24,8 @@ module.exports = {
             useBuiltIns: 'usage',
           }
         ],
-        '@babel/preset-react'
+        '@babel/preset-react',
+        '@babel/preset-typescript',
       ],
       plugins: ['@babel/plugin-proposal-class-properties']
     }
